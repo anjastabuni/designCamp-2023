@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@300;500&family=Candal&family=Lora&family=Montagu+Slab:wght@200;400&family=Montserrat+Subrayada&family=Montserrat:wght@200;500;700&family=Orbitron:wght@500&family=Poppins:wght@300;600&family=Quicksand:wght@300&display=swap");
+* {
+  font-family: "montagu slab", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* alert */
+.alert {
+  background-color: #ffa500;
+  padding: 20px;
+  color: black;
+  opacity: 1;
+  transition: opacity 0.6s;
+  text-align: center;
+}
+.closebtn {
+  padding-right: 20px;
+  color: black;
+  margin-left: 15px;
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* // alert */
+
+/* navbar */
+nav {
+  background-color: white;
+  box-shadow: 9px 2px 9px #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+.navbar-right {
+  float: right;
+  padding-top: 17px;
+  padding-right: 40px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a img {
+  margin-left: 15px;
+}
+.topnav .icon {
+  display: none;
+}
+
+.topnav .joinbtn {
+  background-color: black;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 30px;
+}
+.topnav .icon {
+  display: none;
+}
+/* //navbar */
