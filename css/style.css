@@ -31,7 +31,7 @@ nav {
   box-shadow: 9px 2px 9px #ccc;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 10px;
+  position: sticky;
 }
 .topnav {
   overflow: hidden;
@@ -68,3 +68,64 @@ nav {
   display: none;
 }
 /* //navbar */
+
+/* header */
+.container {
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+}
+.header {
+  padding: 50px 10px;
+  top: -30px;
+  background-image: url("/images/bg-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.header h1 {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+}
+.header p {
+  text-align: center;
+  font-size: 15px;
+}
+.header .linkbtn {
+  padding-top: 80px;
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+.header a {
+  margin: 10px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.header a.btn-lear {
+  background-color: black;
+  padding: 12px;
+  color: white;
+  border-radius: 20px;
+}
+/* //header */
+/* value members */
+.value-members {
+  background-color: #1c2024;
+  color: white;
+}
+.container table {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.container table th,
+td {
+  border-right: 1px solid #ccc;
+}
