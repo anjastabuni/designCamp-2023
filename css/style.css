@@ -26,6 +26,19 @@
 /* // alert */
 
 /* navbar */
+#mytopnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .header {
+  padding-top: 60px;
+}
+
 nav {
   background-color: white;
   box-shadow: 9px 2px 9px #ccc;
@@ -120,12 +133,107 @@ nav {
   background-color: #1c2024;
   color: white;
 }
-.container table {
-  width: 100%;
+.column {
+  float: left;
+  width: 20%;
+  padding: 30px 10px;
   text-align: center;
-  padding: 20px;
 }
-.container table th,
-td {
-  border-right: 1px solid #ccc;
+.column.ke-1 {
+  border-right: 2px solid #ccc;
 }
+.column h1 {
+  font-size: xx-large;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* //value members */
+/* fasilitas */
+.container-lg {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.column2 {
+  float: left;
+  width: 45%;
+  padding: 80px 10px 10px 50px;
+}
+.column2.ke-2 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Montagu Slab" sans-serif;
+  line-height: 43.2px;
+}
+.column2 h2 {
+  margin-bottom: 20px;
+}
+.column2 ul,
+li {
+  list-style-type: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.row1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-lg.ke-2 h2,
+p {
+  text-align: center;
+}
+/* cards */
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 -5px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+/* //fasilitas */
